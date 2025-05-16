@@ -1,0 +1,7 @@
+nohup: ignoring input
+time="2025-05-10T15:13:44-07:00" level=warning msg="/home/Esther.Lee.26/twitter_postgres_indexes/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+connection to server was lost

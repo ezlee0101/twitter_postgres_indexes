@@ -1,0 +1,23 @@
+nohup: ignoring input
+/home/Esther.Lee.26/.bashrc: line 149: venv/bin/activate: No such file or directory
+time="2025-05-11T14:39:54-07:00" level=warning msg="/home/Esther.Lee.26/twitter_postgres_indexes/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+sql.denormalized/01.sql WARNING:  terminating connection because of crash of another server process
+DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+connection to server was lost
+fail
+sql.denormalized/02.sql psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  the database system is in recovery mode
+fail
+sql.denormalized/03.sql psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  the database system is in recovery mode
+fail
+sql.denormalized/04.sql psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  the database system is in recovery mode
+fail
+sql.denormalized/05.sql psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  the database system is in recovery mode
+fail
+
+real	1330m29.739s
+user	0m20.534s
+sys	0m6.224s
